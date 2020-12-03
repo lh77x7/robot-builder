@@ -34,15 +34,21 @@ t.goto(-90, 100)
 rectangle(100, 150, 'purple')
 
 #arms
-t.goto(-150, 70)
-rectangle(60, 15, 'grey')
-t.goto(-150, 110)
-rectangle(15, 40, 'grey')
+#t.goto(-150, 70)
+#rectangle(60, 15, 'grey')
+#t.goto(-150, 110)
+#rectangle(15, 40, 'grey')
 
-t.goto(10, 70)
-rectangle(60, 15, 'grey')
-t.goto(55, 110)
-rectangle(15, 40, 'grey')
+#t.goto(10, 70)
+#rectangle(60, 15, 'grey')
+#t.goto(55, 110)
+#rectangle(15, 40, 'grey')
+
+t.goto(-151, 70)
+rectangle(60, 20, 'grey')
+
+t.goto(11, 70)
+rectangle(60, 20, 'grey')
 
 #neck
 t.goto(-50, 120)
